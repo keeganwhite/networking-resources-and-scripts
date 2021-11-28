@@ -16,7 +16,7 @@ ssh-copy-id -i path-to-key/name-of-key.pub user@ip-address
 ```
 ssh -i path-to-key/name-of-key user@ip-address
 ```
-5. Now open the ssh config file so that you dont have to 'tell' ssh to use this key every time:
+5. Now open the ssh config file on your host machine so that you don't have to 'tell' ssh to use this key every time:
 ```
 sudo nano ~/.ssh/config
 ```

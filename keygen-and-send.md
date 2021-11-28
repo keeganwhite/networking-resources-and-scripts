@@ -7,6 +7,7 @@ Steps to generate and send a key to server/pi/etc so you don't have to enter a p
 ssh-keygen
 ```
 and follow the prompts. I rename the key to be something useful like 'keegans_pi' for example.
+
 3. Send the *public key* to the server/pi/etc and follow the on screen commands:
 ```
 ssh-copy-id -i path-to-key/name-of-key.pub user@ip-address

@@ -5,4 +5,4 @@ server:
 local-zone: "<URL>" redirect
 local-data: "<URL> 86400 IN A <SERVER IP>"
 ```
-where URL is the domain name i.e. for 'server.inethi.net' you would enter 'inethi.net' and the '<SERVER IP>'is the IP address of the device hosting the services you want to redirect to.
+where URL is the domain name i.e. for 'server.inethi.net' you would enter 'inethi.net' and the 'SERVER IP'is the IP address of the device hosting the services you want to redirect to.
